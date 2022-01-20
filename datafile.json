@@ -1,0 +1,159 @@
+{
+    "clubs":[
+  {
+    "xcoord": 49.48502627570998,
+    "ycoord": 8.468271607885256,
+    "placetotal": 55,
+    "placeused": 25,
+    "name": "SIN Club",
+    "reputation": 3,
+    "pictureid": "assets/database/images/00000001.jpg",
+    "description": "Netter Ort um viel Spass zu haben! Genieße jegliche Musik und trinke dazu ein kaltes Bierchen.",
+    "adress":"N5 2, 68161 Mannheim"
+  },
+  {
+    "xcoord": 49.48467018410973,
+    "ycoord": 8.471972103319489,
+    "placetotal": 40,
+    "placeused": 22,
+    "name": "Tiffany",
+    "reputation": 4,
+    "pictureid": "assets/database/images/00000002.jpeg",
+    "description": "Die alteingesessene Disco mit modernem, stylishem Interieur bietet beliebte Partys mit Gast- und Resident-DJs.",
+    "adress":"O7 25, 68161 Mannheim"
+  },
+  {
+    "xcoord": 49.48423045460165,
+    "ycoord": 8.473434066298731,
+    "placetotal": 66,
+    "placeused": 22,
+    "name": "CUBES Club",
+    "reputation": 2,
+    "pictureid": "assets/database/images/00000003.jpeg",
+    "description": "Dance und Party alleine oder mit Freunden. Hier ist für jeden was dabei.",
+    "adress":"O7 18, 68161 Mannheim"
+  },
+  {
+    "xcoord": 49.48720354670225,
+    "ycoord": 8.471177601253011,
+    "placetotal": 33,
+    "placeused": 18,
+    "name": "Das Zimmer Mannheim",
+    "reputation": 3,
+    "pictureid": "assets/database/images/00000004.jpg",
+    "description": "Pulsierender kleiner Club spielt RnB, Hip Hop und House und veranstaltet regelmäßig Afterhour-Partys.",
+    "adress":"Q5 14-22, 68161 Mannheim"
+  },
+  {
+    "xcoord": 49.48946970478816,
+    "ycoord": 8.474636279525837,
+    "placetotal": 89,
+    "placeused": 55,
+    "name": "Disco Zwei",
+    "reputation": 4,
+    "pictureid": "assets/database/images/00000005.jpg",
+    "description": "Nachtclub und Nachbarschaftsdisko mit DJs, Vinyl-Acts, Performances und Spezialveranstaltungen.",
+    "adress":"T6 14, 68161 Mannheim"
+  },
+  {
+    "xcoord": 49.49083301656261,
+    "ycoord": 8.469151111457633,
+    "placetotal": 105,
+    "placeused": 80,
+    "name": "One Mannheim",
+    "reputation": 3,
+    "pictureid": "assets/database/images/00000006.jpg",
+    "description": "Disco mit Spass für alle. Komm gerne voebei und dance zu den besten Beats.",
+    "adress":"T1 1, 68161 Mannheim"
+  },
+  {
+    "xcoord": 49.49211496286987,
+    "ycoord": 8.468214507956374,
+    "placetotal": 57,
+    "placeused": 33,
+    "name": "Lido Palast",
+    "reputation": 3,
+    "pictureid": "assets/database/images/00000007.jpg",
+    "description": "Ab geht die Party und die Party geht ab. Komm vorbei!",
+    "adress":"K2 32, 68159 Mannheim"
+  },
+  {
+    "xcoord": 49.49368707187339,
+    "ycoord": 8.463167695651855,
+    "placetotal": 100,
+    "placeused": 44,
+    "name": "SOHO",
+    "reputation": 4,
+    "pictureid": "assets/database/images/00000008.jpg",
+    "description": "Der kleine Club im GewÃ¶lbekeller setzt auf Themennächte von Techhouse und Electro über Funk und RnB bis Rock.",
+    "adress":"J7 16, 68159 Mannheim"
+  },
+  {
+    "xcoord": 49.49320453490841,
+    "ycoord": 8.462443372077137,
+    "placetotal": 99,
+    "placeused": 88,
+    "name": "Sideclub",
+    "reputation": 4,
+    "pictureid": "assets/database/images/00000009.jpg",
+    "description": "Im Kellergewölbe mit Rundbögen und modernem Lichtdesign wird ausgiebig zu Gothic, Rock- und Popmusik getanzt.",
+    "adress":"H7 15, 68159 Mannheim"
+  },
+  {
+    "xcoord": 49.48837822958953,
+    "ycoord": 8.46417959884625,
+    "placetotal": 45,
+    "placeused": 40,
+    "name": "California Club",
+    "reputation": 4,
+    "pictureid": "assets/database/images/00000010.png",
+    "description": "California Vibes und gute Beats. Komm vorbei und trinke einen Cocktail oder auch zwei.",
+    "adress":"D3 5, 68159 Mannheim"
+  },
+  {
+    "xcoord": 49.49837759591369,
+    "ycoord": 8.457328772925099,
+    "placetotal": 25,
+    "placeused": 12,
+    "name": "Hafen 49",
+    "reputation": 5,
+    "pictureid": "assets/database/images/00000011.jpg",
+    "description": "Im Open-Air-Club wird zwischen alten Containern unter orangen Sonnensegeln House und Techno aufgelegt.",
+    "adress":"Hafenstrasse 49, 68159 Mannheim"
+  },
+  {
+    "xcoord": 49.47806585590562,
+    "ycoord": 8.452387626656904,
+    "placetotal": 43,
+    "placeused": 25,
+    "name": "Escape Night Club",
+    "reputation": 4,
+    "pictureid": "assets/database/images/00000012.jpg",
+    "description": "Escape the reality. Verschwinde aus deinem Alttag und spring in eine neue Realität.",
+    "adress":"Yorckstrasse 33, 67061 Ludwigshafen am Rhein"
+  },
+  {
+    "xcoord": 49.47869919971362,
+    "ycoord": 8.437919720723269,
+    "placetotal": 80,
+    "placeused": 33,
+    "name": "Techno Club",
+    "reputation": 5,
+    "pictureid": "assets/database/images/00000013.jpg",
+    "description": "Techno vom allerfeinsten komm vorbei!",
+    "adress":"Bahnhofstrasse 103, 67059 Ludwigshafen am Rhein"
+  },
+  {
+    "xcoord": 49.506045995713286,
+    "ycoord": 8.459889896635623,
+    "placetotal": 55,
+    "placeused": 23,
+    "name": "RUDE7",
+    "reputation": 4,
+    "pictureid": "assets/database/images/00000014.jpg",
+    "description": "Entspannte Beats und billige Getränke.",
+    "adress":"Industriestrasse 7C, 68169 Mannheim"
+  }
+
+]
+}
