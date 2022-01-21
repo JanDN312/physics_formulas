@@ -1,6 +1,8 @@
 import {serve} from "https://deno.land/std@0.122.0/http/server.ts";
+import {Datareader} from "./datafile.ts"
 
 const listener = Deno.listen({port: 5000});
+const dataloader = new Datareader("filename")//TODO Hier muss der Dateiname rein
 //TODO laden der Datenbank
 
 async function getResponse( reqinput: Request){

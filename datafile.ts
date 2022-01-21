@@ -1,7 +1,6 @@
 import loadJsonFile from "https://deno.land/x/load_json_file@v1.0.0/mod.ts"
 
-
-class Datareader {
+export class Datareader {
     loadedData;
 
     constructor(){
