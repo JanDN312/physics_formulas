@@ -16,5 +16,14 @@ class Datareader {
     getallData(){
         return this.loadedData
     }
+
+    ReadDataElement(input: any){
+        
+        try{
+            for(const element in this.loadedData){
+                if(element[0]==input){return element}//Wenn das element gefunden wird, wird das gesamte Set wiedergegeben
+            }
+        }finally{return null}
+    }
 }
     

@@ -4,8 +4,7 @@ const listener = Deno.listen({port: 5000});
 //TODO laden der Datenbank
 
 async function getResponse( reqinput: Request){
-    console.log(reqinput)
-    console.log(typeof([1,2,3,4,5]))
+    console.log(reqinput)//reqinput muss als input ein dataset sein mit aufbau: {artDesZugriffs(w/r),[Schreibelement/Lesekriterien]}
     //TODO Abfrage des Schreibzugriffs
     //TODO Suchfunktion in der Datenbank
     return reqinput;}
