@@ -1,4 +1,4 @@
-export class AcceleratedMovementFormulars{
+export class AcceleratedMovementFormulas{
     //distance=0,5*acceleration*time^2 SI(m,s) DAT_AM Distance,Acceleration,Time _ Accelerated Motion
     public static getDistanceDAT_AM(acceleration:number, time:number){
         return 0.5*acceleration*(time**2)}

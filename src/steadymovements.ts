@@ -1,4 +1,4 @@
-export class SteadyMovementFormulars{
+export class SteadyMovementFormulas{
     //distance=velocity*time SI(m,s)  DVT_SM = Distanve,Velocity,Time _ Steady Motion
     public static getDistanceDVT_SM(velocity:number,time:number){
         return velocity*time}

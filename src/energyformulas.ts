@@ -1,4 +1,4 @@
-export class EnergyFormulars{
+export class EnergyFormulas{
     //energy=mass*gravityacceleration*height SI(kg,m,s) EMH = Energy,Mass,Height
     public static getEnergyEMH_PotentialEnergy(mass:number, height:number){
         return mass*9.89665*height}

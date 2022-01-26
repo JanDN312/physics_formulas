@@ -1,4 +1,4 @@
 export * from "./src/steadymovements.ts"
 export * from "./src/acceleratedmovements.ts"
-export * from "./src/forceformulars.ts"
-export * from "./src/energyformulars.ts"
+export * from "./src/forceformulas.ts"
+export * from "./src/energyformulas.ts"
