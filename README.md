@@ -1,16 +1,19 @@
-# Physical Formular Calculator(Power, Energie, Movements)
+# Physical Formula Calculator(Power, Energie, Movements)
 
-This module allows you to calculate every variable of given formulars. You simply chose the function for the missing value and type in the inputvalues in SI-units. Every function shows which parameters are necessary to compute the outcome. Also every variable of the underlaying formular is short-included in the name. 
+This module allows you to calculate every variable of given formulas. You simply chose the function for the missing value and type in the inputvalues in SI-units. Every function shows which parameters are necessary to compute the outcome. Also every variable of the underlaying formula is short-included in the name. 
 
-
+## Import with this line
+```
+import {SteadyMovementFormulas, AcceleratedMovementFormulas, PowerFormulas, EnergyFormulas} from "
+```
 ## Usage via Commandline
 ```
 deno run --allow-net https://deno.land/x/physics_formulars/test.ts
 ```
 
-## Steady Motion Formulars - Usage Example
+## Steady Motion Formulas - Usage Example
 ```
-import {SteadyMovementFormulars as smf} from "./src/steadymovements.ts"
+import {SteadyMovementFormulas as smf} from "./src/steadymovements.ts"
 
 var time=10
 var velocity=10
@@ -27,9 +30,9 @@ console.log(smf.getVelocityDVT_SM(distance, time))
 ```
 
 
-## Accelerated Motion Formulars - Usage Example
+## Accelerated Motion Formulas - Usage Example
 ```
-import {AcceleratedMovementFormulars as amf} from "./src/acceleratedmovements.ts"
+import {AcceleratedMovementFormulas as amf} from "./src/acceleratedmovements.ts"
 
 var distance= 1000          //in meter
 var acceleration= 20        //in m/s^2
@@ -46,9 +49,9 @@ console.log(amf.getTimeDAT_AM(distance,acceleration))
 ```
 
 
-## Power Formulars - Usage Example
+## Power Formulas - Usage Example
 ```
-import {PowerFormulars as pm} from "./src/forceformulars.ts"
+import {PowerFormulas as pm} from "./src/forceformulas.ts"
 
 var power=20                //in newton
 var mass=10                 //in kilogramm
@@ -65,9 +68,9 @@ console.log(pm.getPowerPMA_FF(mass, acceleration))
 ```
 
 
-## Energy Formulars - Usage Example
+## Energy Formulas - Usage Example
 ```
-import {EnergyFormulars as ef} from "./src/energyformulars.ts"
+import {EnergyFormulas as ef} from "./src/energyformulas.ts"
 
 var energy= 300             //in joule
 var height= 14              //in meter
