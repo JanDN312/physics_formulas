@@ -3,16 +3,16 @@
 This module allows you to calculate every variable of given formulas. You simply chose the function for the missing value and type in the inputvalues in SI-units. Every function shows which parameters are necessary to compute the outcome. Also every variable of the underlaying formula is short-included in the name. 
 
 ## Import with this line
-```
-import {SteadyMovementFormulas, AcceleratedMovementFormulas, PowerFormulas, EnergyFormulas} from "
+```js
+import {SteadyMovementFormulas, AcceleratedMovementFormulas, PowerFormulas, EnergyFormulas} from "https://deno.land/x/physics_formulas@v1.0.0/mod.ts"
 ```
 ## Usage via Commandline
-```
+```js
 deno run --allow-net https://deno.land/x/physics_formulars/test.ts
 ```
 
 ## Steady Motion Formulas - Usage Example
-```
+```js
 import {SteadyMovementFormulas as smf} from "./src/steadymovements.ts"
 
 var time=10
@@ -31,7 +31,7 @@ console.log(smf.getVelocityDVT_SM(distance, time))
 
 
 ## Accelerated Motion Formulas - Usage Example
-```
+```js
 import {AcceleratedMovementFormulas as amf} from "./src/acceleratedmovements.ts"
 
 var distance= 1000          //in meter
@@ -50,7 +50,7 @@ console.log(amf.getTimeDAT_AM(distance,acceleration))
 
 
 ## Power Formulas - Usage Example
-```
+```js
 import {PowerFormulas as pm} from "./src/forceformulas.ts"
 
 var power=20                //in newton
@@ -69,7 +69,7 @@ console.log(pm.getPowerPMA_FF(mass, acceleration))
 
 
 ## Energy Formulas - Usage Example
-```
+```js
 import {EnergyFormulas as ef} from "./src/energyformulas.ts"
 
 var energy= 300             //in joule
