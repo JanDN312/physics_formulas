@@ -8,7 +8,7 @@ import {SteadyMovementFormulas, AcceleratedMovementFormulas, PowerFormulas, Ener
 ```
 ## Usage via Commandline
 ```js
-deno run --allow-net https://deno.land/x/physics_formulas/test.ts
+deno run --allow-net https://deno.land/x/physics_formulas@1.0.2/test.ts  //or higher version
 ```
 
 ## Steady Motion Formulas - Usage Example
