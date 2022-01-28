@@ -1,4 +1,4 @@
-import {AcceleratedMovementFormulars as amf} from "./src/acceleratedmovements.ts"
+import {AcceleratedMovementFormulas as amf} from "./src/acceleratedmovements.ts"
 
 var distance= 1000        
 var acceleration= 20   
@@ -14,14 +14,14 @@ console.log("Time:")
 console.log(amf.getTimeDAT_AM(distance,acceleration))
 
 
-import {PowerFormulars as pm} from "./src/forceformulars.ts"
+import {PowerFormulas as pm} from "./src/forceformulas.ts"
 
 var power=20
 var mass=10
 var acceleration=2
 
 console.log(" ")
-console.log("General Power Formular")
+console.log("General Power Formula")
 console.log("Acceleration:")
 console.log(pm.getAccelerationPMA_FF(power, mass))
 console.log("Mass:")
@@ -30,7 +30,7 @@ console.log("Power")
 console.log(pm.getPowerPMA_FF(mass, acceleration))
 
 
-import {SteadyMovementFormulars as smf} from "./src/steadymovements.ts"
+import {SteadyMovementFormulas as smf} from "./src/steadymovements.ts"
 
 var time=10
 var velocity=10
@@ -46,7 +46,7 @@ console.log("Velocity")
 console.log(smf.getVelocityDVT_SM(distance, time))
 
 
-import {EnergyFormulars as ef} from "./src/energyformulars.ts"
+import {EnergyFormulas as ef} from "./src/energyformulas.ts"
 
 var energy= 300         
 var height= 14

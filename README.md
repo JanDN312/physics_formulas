@@ -8,7 +8,7 @@ import {SteadyMovementFormulas, AcceleratedMovementFormulas, PowerFormulas, Ener
 ```
 ## Usage via Commandline
 ```js
-deno run --allow-net https://deno.land/x/physics_formulars/test.ts
+deno run --allow-net https://deno.land/x/physics_formulas/test.ts
 ```
 
 ## Steady Motion Formulas - Usage Example
@@ -57,7 +57,7 @@ var power=20                //in newton
 var mass=10                 //in kilogramm
 var acceleration=2          //in newton/kilogramm
 
-console.log("General Power Formular")
+console.log("General Power Formula")
 console.log(" ")
 console.log("Acceleration:")
 console.log(pm.getAccelerationPMA_FF(power, mass))
